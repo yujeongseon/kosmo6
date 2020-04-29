@@ -28,11 +28,7 @@
 			</tr>
 			<tr bgcolor="white">
 				<td>관심사항</td>
-				<td>
-					<input type="checkbox" name="inters" value="정치" <c:if test="${fn:contains(inters,'정치') or fn:contains(cmd.inters,'정치')  }">checked</c:if> />정치 
-					<input type="checkbox" name="inters" value="경제" <c:if test="${fn:contains(inters,'경제') or fn:contains(cmd.inters,'경제') }">checked</c:if>/>경제 
-					<input type="checkbox" name="inters" value="스포츠" <c:if test="${fn:contains(inters,'스포츠') or fn:contains(cmd.inters,'스포츠') }">checked</c:if>/>스포츠
-				</td>
+				
 			</tr>
 			<tr bgcolor="white">
 				<td>학력</td>
